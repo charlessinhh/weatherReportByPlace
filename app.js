@@ -26,7 +26,7 @@ function fetchData() {
             console.log(coOrdinate.lat, coOrdinate.lng);
             lat = coOrdinate.lat;
             long = coOrdinate.lng;
-            const weatherApiKey = 'd93b50b94d2b44d386c155801231602';
+            const weatherApiKey = '';
             const weatherUrl = `https://api.weatherapi.com/v1/current.json?key=${weatherApiKey}&q=${lat},${long}&aqi=yes`;
             fetch(weatherUrl)
                 .then(response => response.json())
