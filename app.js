@@ -1,6 +1,6 @@
 function fetchData() {
-    const mapApiKey = 'pk.eyJ1IjoiY2hhcmxlc3NpbmhoIiwiYSI6ImNsZTc4bmc1MzAzMTczb21leHFydXM5eW4ifQ.Ec1tR3Ax_fbEhf2gnKFA-A';
-    const googleApiKey = 'AIzaSyBlkgk3kcgXFDwMqlxusZ4MuPNARY-5fig';
+    const mapApiKey = '';
+    const googleApiKey = '';
 
     const address = document.getElementById("place").value;
     const mapUrl = `https://api.mapbox.com/geocoding/v5/mapbox.places/${address}.json?&access_token=${mapApiKey}`;
